@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# 欢迎使用 FastSwitchHosts
 
-You can use the [editor on GitHub](https://github.com/sunyuan213/FastSwitchHostsRelease/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**FastSwitchHosts是一个快速切换host的工具软件**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+FastSwitchHosts是一个快速切换host的工具软件，并且集合了Fillder的插件。基于.netframework4.0开发。
 
-### Markdown
+- FastSwitchHosts在切换host时，会检查改变了哪些host，把对应ip的tcp连接断开，以达到秒切的效果。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- 在开启了Fiddler之后打开FastSwitchHosts，会在Fiddler中安装FastSwitchHosts的插件。之所以会添加Fiddler的插件，是因为Fillder一旦开启，在切换host的时候，需要隔一段时间，新的host才会生效。
 
-```markdown
-Syntax highlighted code block
+- FastSwitchHosts与Fiddler插件会同步参数。
 
-# Header 1
-## Header 2
-### Header 3
+[点击下载安装包](https://github.com/sunyuan213/FastSwitchHostsRelease/releases/download/V1.0.0.6/FastSwitchHosts_setup.exe)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sunyuan213/FastSwitchHostsRelease/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[.netframework4.0在线安装](https://www.microsoft.com/zh-CN/download/confirmation.aspx?id=17851)
